@@ -81,8 +81,10 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    ## Title: "Hi there \U0001F44B"
+    Title: "ClixTW's Blog \U0001F988"    
+    ## Content: Welcome to my blog
+    Content: "一些科技、日文和碎碎念。"    
 
   socialIcons:
     - name: x
