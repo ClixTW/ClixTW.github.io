@@ -48,3 +48,19 @@ draft: false
 目前還有許多需要調整的地方，在寫這篇的過程就看標點不太爽，並非正體中文常見的置中，而是偏左下；行距也有點窄，感覺擠擠的，買不起大房子，至少自己的部落格要可以隨意伸展吧。再找時間調整了，今年的期許是別再要求每件事都準備完美再做，不是強者只會無限拖延下去，學會擁抱不完美，做到 70 分總比 0 分強。
 
 ---
+
+<script src="https://giscus.app/client.js"
+        data-repo="ClixTW/ClixTW.github.io"
+        data-repo-id="R_kgDOQ2wWIQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQ2wWIc4C0xEA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-TW"
+        crossorigin="anonymous"
+        async>
+</script>
