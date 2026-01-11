@@ -6,4 +6,4 @@ description: ""
 draft: false
 # weight: 1
 ---
-
+{{< figure src="images/.avif" attr="" align=center >}}
