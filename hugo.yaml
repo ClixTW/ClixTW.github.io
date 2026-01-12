@@ -1,5 +1,5 @@
 ## baseURL: "https://examplesite.com/"
-baseURL: "https://ClixTW.github.io/"
+baseURL: "https://clixtw.github.io/"
 ## title: ExampleSite
 title: ClixTW's Blog
 ## paginate: 5
@@ -25,7 +25,6 @@ params:
   description: "https://clixtw.github.io/"
   keywords: [Blog, Portfolio, PaperMod]
   ## author: Me
-  author: CTW
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -37,7 +36,8 @@ params:
   ShowShareButtons: false  
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ## ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -54,11 +54,17 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    ## favicon: "<link / abs url>"
+    ## favicon16x16: "<link / abs url>"
+    ## favicon32x32: "<link / abs url>"
+    ## apple_touch_icon: "<link / abs url>"
+    ## safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon-rounded.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
 
   label:
     text: "Home"
@@ -88,12 +94,12 @@ params:
     Content: "一些科技、日文和碎碎念。"    
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    - name: rss
+      url: "https://clixtw.github.io/index.xml"
+    ## - name: stackoverflow
+      ## url: "https://stackoverflow.com"
+    ## - name: github
+      ## url: "https://github.com/"
 
   analytics:
     google:
@@ -126,14 +132,22 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: 分類
-      url: /categories/
-      weight: 10
+    ## - identifier: categories
+      ## name: 分類
+      ## url: /categories/
+      ## weight: 10
     - identifier: tags
       name: 標籤
       url: /tags/
+      weight: 10
+    - identifier: archives
+      name: 日期
+      url: /archives/
       weight: 20
+    - identifier: search
+      name: 搜尋
+      url: /search/
+      weight: 30      
     ## - identifier: example
       ## name: example.org
       ## url: https://example.org
@@ -149,3 +163,8 @@ markup:
     # lineNos: true
     # style: monokai
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
