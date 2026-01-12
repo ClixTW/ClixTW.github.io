@@ -6,6 +6,8 @@ title: ClixTW's Blog
 pagination.pagerSize: 5
 theme: PaperMod
 
+defaultContentLanguage: "zh-tw"
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -94,8 +96,10 @@ params:
     Content: "一些科技、日文和碎碎念。"    
 
   socialIcons:
+    - name: email
+      url: "mailto:a8aixy693@mozmail.com"  
     - name: rss
-      url: "https://clixtw.github.io/index.xml"
+      url: "https://clixtw.github.io/index.xml"   
     ## - name: stackoverflow
       ## url: "https://stackoverflow.com"
     ## - name: github
@@ -103,7 +107,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "google80a879d6b110c403.html"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
@@ -147,7 +151,11 @@ menu:
     - identifier: search
       name: 搜尋
       url: /search/
-      weight: 30      
+      weight: 30
+    - identifier: profile
+      name: 關於我
+      url: /profile/
+      weight: 40
     ## - identifier: example
       ## name: example.org
       ## url: https://example.org
