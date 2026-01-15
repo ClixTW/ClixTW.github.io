@@ -1,0 +1,31 @@
+main:
+  - name: nav.posts
+    pageRef: /posts
+    weight: 20
+    params:
+      icon: posts
+
+  - name: nav.tags
+    pageRef: /tags
+    weight: 40
+    params:
+      icon: tags
+  - name: nav.archives
+    pageRef: /archives
+    weight: 50
+    params:
+      icon: archive
+
+# footer social link
+social:
+  - name: RSS
+    url: https://clixtw.github.io/index.xml
+    weight: 10
+    params:
+      icon: rss
+  - name: Email
+    url: mailto:a8aixy693@mozmail.com
+    weight: 20
+    params:
+      icon: email
+

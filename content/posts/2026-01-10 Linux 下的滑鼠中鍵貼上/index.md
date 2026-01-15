@@ -1,10 +1,12 @@
 ---
 title: "Linux 下的滑鼠中鍵貼上"
 date: "2026-01-10T11:16:56+08:00"
-tags: ["Linux", "GNOME"]
-description: ""
+summary: ""
+tags:
+  - Linux
+  - GNOME
+cover:
 draft: false
-# weight: 1
 ---
 
 最近看到 [GNOME 要預設停用滑鼠中鍵貼上的消息](https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/-/merge_requests/119)，我滿喜歡 Linux 的這個功能（嚴格來說應該是 X11 和 Wayland？），但過去一直有種捉摸不定的感覺，有時候貼上的文字和預期的不一樣。後來才知道為什麼——
