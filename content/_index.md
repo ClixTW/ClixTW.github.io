@@ -4,7 +4,7 @@ date: 2025-12-31
 title: "Home"
 author:
   name: "ClixTW's Blog"
-  title: "日文譯者"
+  title: "日文譯者‧影音工作者"
   description: "一些科技、日文和碎碎念。"
   avatar: "/images/avatar.avif"
   social:

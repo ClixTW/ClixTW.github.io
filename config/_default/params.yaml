@@ -220,7 +220,7 @@ lightbox:
 
 # Justified Gallery
 justified_gallery:
-  enabled: false
+  enabled: true
   rowHeight: 300
   gutter: 30
   lastRow: center
