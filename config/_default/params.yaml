@@ -169,7 +169,7 @@ comments:
 
 # Analytics
 analytics:
-  enabled: true
+  enabled: false
   baidu:
     enabled: false
     id: "your-baidu-analytics-id"
@@ -177,7 +177,7 @@ analytics:
     enabled: false
     id: "your-clarity-analytics-id"
   google:
-    enabled: true
+    enabled: false
     id: "G-N9HMGK3572"
   umami:
     enabled: false
