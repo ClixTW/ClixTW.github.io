@@ -177,8 +177,8 @@ analytics:
     enabled: false
     id: "your-clarity-analytics-id"
   google:
-    enabled: false
-    id: "your-google-analytics-id"
+    enabled: true
+    id: "G-N9HMGK3572"
   umami:
     enabled: false
     id: "your-umami-website-id"
