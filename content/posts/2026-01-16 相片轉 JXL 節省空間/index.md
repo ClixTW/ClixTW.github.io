@@ -26,6 +26,8 @@ draft: false
 > [!note]
 > JXL 的解碼器正在用 [Rust 重寫](https://github.com/libjxl/jxl-rs)，Chrome 也重新加入了對 [JXL 的實驗性支援](https://www.phoronix.com/news/JPEG-XL-Returns-Chrome-Chromium)，前景應該是滿好的，2026 將是 JXL 元年！
 
+想實際比較 AVIF 和 JXL，這裡可以動手玩：[jpegxl.info](https://jpegxl.info/)
+
 ### 實測結果
 
 ![01.avif](01.avif)
