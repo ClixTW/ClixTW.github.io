@@ -228,7 +228,7 @@ justified_gallery:
   resizeDebounce: 100
   rowHeightTolerance: 0.25
   maxRowsCount: 999999
-  calculateItemsHeight: false
+  calculateItemsHeight: true
 
 # Code block
 codeblock:
