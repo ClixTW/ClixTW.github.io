@@ -65,7 +65,7 @@ draft: false
 
 ![06.avif](06.avif)
 
-其實我更喜歡 [Gallery](https://github.com/IacobIonut01/Gallery) 這款相簿軟體，介面非常漂亮現代，本地端 AI 圖片分類的功能也很棒，可惜目前對 JXL 的支援還不夠完整，最新的版本只能顯示不包含元數據的相片，如果沒清除元數據就會顯示錯誤，但舊版本（3.1.2）沒問題，就是縮圖顯示慢一些，已經有人提了 [Issue](https://github.com/IacobIonut01/Gallery/issues/756)，期待未來能修復囉。
+其實我更喜歡 [Gallery](https://github.com/IacobIonut01/Gallery) 這款相簿軟體，介面非常漂亮現代，離線跑在裝置上的 AI 圖片分類功能也很棒，可惜目前對 JXL 的支援還不夠完整，最新的版本只能顯示不包含元數據的相片，如果沒清除元數據就會顯示錯誤，但舊版本（3.1.2）沒問題，就是縮圖顯示慢一些，已經有人提了 [Issue](https://github.com/IacobIonut01/Gallery/issues/756)，期待未來能修復囉。
 
 ### 排序問題
 
