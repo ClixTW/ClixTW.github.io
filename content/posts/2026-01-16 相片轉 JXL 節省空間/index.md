@@ -23,6 +23,7 @@ draft: false
 - AVIF：客觀來說是很好的選擇，當前的相容性已經很高，在我的手機上（Samsung S25 - Android 16）可以用內建相簿正常檢視，就和手機自己拍的相片一樣。主流瀏覽器也都支援，不用多做處理就能直接使用，譬如本部落格的圖片都是 AVIF 格式的。
 - JXL：技術上比 AVIF 更先進一些，比如支援更高的解析度和色域、漸進式解碼（在下載過程中由模糊變清晰，網頁上很有用）、無損轉換（可將 JPG 縮小 20% 且能完全還原），並且在同檔案大小下，畫質比 AVIF 好一咪咪。但當前相容性欠佳，在我的手機上內建相簿無法正常顯示，瀏覽器上都還只是實驗性支援。簡單來說，就是戰未來啦。
 
+> [!note]
 > JXL 的解碼器正在用 [Rust 重寫](https://github.com/libjxl/jxl-rs)，Chrome 也重新加入了對 [JXL 的實驗性支援](https://www.phoronix.com/news/JPEG-XL-Returns-Chrome-Chromium)，前景應該是滿好的，2026 將是 JXL 元年！
 
 ### 實測結果
@@ -82,6 +83,7 @@ brew install exiftool
 exiftool -r "-FileModifyDate < DateTimeOriginal" ./
 ```
 
+> [!tip]
 > `-r` 表示要處理子目錄裡的檔案，`-FileModifyDate < DateTimeOriginal` 表示用原始建立時間取代最後修改時間，`./` 表示處理當前目錄。
 
 ### 結語
