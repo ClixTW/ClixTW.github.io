@@ -1,22 +1,30 @@
 # Basic site info with SEO
+# description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
+# keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
+# defaultAuthor: "Hugo Narrow"
+# language: "en-US"
+# shortName: "Hugo Narrow"  # PWA
+# images:
+  # - "/images/og-default.avif"
 description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
 keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
 defaultAuthor: "ClixTW"
 language: "zh-TW"
 shortName: "Hugo Narrow"  # PWA
 images:
-  - "/images/og-default.avif"
+  - "/images/og-default.avif"  
 
 # Favicon
 favicon:
-  svg: "/favicon.ico"  # SVG format favicon (recommended)
-
+  # svg: "/favicon.svg"  # SVG format favicon (recommended)
+  svg: "/images/favicon.ico"
+  
 # Author info
 author:
   name: "Hugo Narrow"
   title: "A Clean and Minimal Hugo Theme"
   description: "Focused on content and user experience."
-  avatar: "/images/avatar.avif"
+  avatar: "/images/avatar.svg"
   social:
     - name: "GitHub"
       url: "https://github.com/username"
@@ -30,19 +38,23 @@ author:
 
 # Header configuration (modularized)
 header:
-  sticky: true  # Enable sticky navigation bar
+  # sticky: true  # Enable sticky navigation bar
+  sticky: false  
   logo:
-    image: "/images/logo.png"  # Logo path relative to static folder, leave empty to use site title first letter
+    # image: "/images/logo.svg"  # Logo path relative to static folder, leave empty to use site title first letter
+    image: "/images/logo.png"
     link: "/"  # Click to home page
   # UI Components Control (header controls)
-  showThemeSwitch: false      # Set to false to hide theme style switcher (palette icon)
+  # showThemeSwitch: true      # Set to false to hide theme style switcher (palette icon)
+  showThemeSwitch: false      # Set to false to hide theme style switcher (palette icon)  
   showDarkModeSwitch: true   # Set to false to hide dark mode switcher (sun/moon icon)
-  showLanguageSwitch: false   # Set to false to hide language switcher
+  showLanguageSwitch: true   # Set to false to hide language switcher
   languageSwitchMode: "dropdown"  # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
 
 # Dock display mode
 # Options: "scroll" (show on scroll up), "always" (always visible), "float" (floating button)
-dock: "scroll"
+# dock: "scroll"
+dock: "always"
 
 # TOC (Table of Contents)
 toc:
@@ -63,6 +75,7 @@ series:
 
 
 # Default color scheme
+# colorScheme: "default"
 colorScheme: "nord"
 themes:
   default:
@@ -120,7 +133,8 @@ post:
   showRelated: true           # show related posts
   relatedPostsCount: 3        # posts number
   license:
-    show: false
+    # show: true
+    show: false    
     author: "Hugo Narrow"
     name: "CC BY-NC-SA 4.0"
     description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
@@ -129,10 +143,15 @@ post:
 
 # Comments
 comments:
-  enabled: true
+  # enabled: false
+  enabled: true  
   # giscus, disqus, utterances, waline, artalk, twikoo
   system: "giscus"
   giscus:
+    # repo: "tom2almighty/hugo-narrow-giscus"
+    # repoId: "R_kgDOO2gwLg"
+    # category: "General"
+    # categoryId: "DIC_kwDOO2gwLs4CrEaf"
     repo: "ClixTW/ClixTW.github.io"
     repoId: "R_kgDOQ2wWIQ"
     category: "Announcements"
@@ -141,9 +160,10 @@ comments:
     strict: "0"
     reactionsEnabled: "1"
     emitMetadata: "0"
-    inputPosition: "top"
+    inputPosition: "bottom"
     theme: "preferred_color_scheme"
-    lang: "zh-TW"
+    # lang: "en"
+    lang: "zh-TW"    
   disqus:
     shortname: ""
   utterances:
@@ -220,6 +240,7 @@ lightbox:
 
 # Justified Gallery
 justified_gallery:
+  # enabled: false
   enabled: true
   rowHeight: 300
   gutter: 30

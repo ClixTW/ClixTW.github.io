@@ -2,10 +2,10 @@
 title: "Linux 下的滑鼠中鍵貼上"
 date: "2026-01-10T11:16:56+08:00"
 summary: ""
+cover:
 tags:
   - Linux
   - GNOME
-cover:
 draft: false
 ---
 

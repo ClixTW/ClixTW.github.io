@@ -2,10 +2,10 @@
 title: "首篇"
 date: "2026-01-09T22:33:53+08:00"
 summary: ""
+cover: 
 tags:
   - 碎碎念
   - Hugo
-cover:
 draft: false
 ---
 

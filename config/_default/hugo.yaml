@@ -1,7 +1,11 @@
+# baseURL: https://hugo-narrow.vercel.app/
 baseURL: https://clixtw.github.io/
+# languageCode: en-US
 languageCode: zh-TW
+# defaultContentLanguage: en
 defaultContentLanguage: zh-tw
 defaultContentLanguageInSubdir: false
+# title: Hugo Narrow
 title: ClixTW's Blog
 theme: "hugo-narrow"
 
