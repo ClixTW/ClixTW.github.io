@@ -1,6 +1,5 @@
 ---
-date:
-  "{ date:yyyy-MM-DDTHH:mm:ssZ }":
+date: "{{date:yyyy-MM-DDTHH:mm:ssZ}}"
 title: "{{name}}"
 slug: ""
 tags:
