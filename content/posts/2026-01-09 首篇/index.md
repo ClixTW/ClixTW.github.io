@@ -1,11 +1,12 @@
 ---
-title: "首篇"
-date: "2026-01-09T22:33:53+08:00"
-summary: ""
-cover: 
+date: 2026-01-09T22:33:53+08:00
+title: 首篇
+slug: hello-world
 tags:
   - 碎碎念
   - Hugo
+summary: ""
+cover:
 draft: false
 ---
 
