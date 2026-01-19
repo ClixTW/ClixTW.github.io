@@ -20,7 +20,7 @@ draft: false
 
 Youlag 是一款開源的 FreshRSS 擴充功能，為桌面端和行動端都提供了漂亮的影片視圖介面，隨著不斷更新，現在也加強了文章閱讀介面，讓整個 FreshRSS 的 UI 都顯得煥然一新，可以說兼具了主題功能。
 
-GitHub 連結：[https://github.com/civilblur/youlag]()
+GitHub 連結：[https://github.com/civilblur/youlag](https://github.com/civilblur/youlag)
 
 ## 影片視圖
 
