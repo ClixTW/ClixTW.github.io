@@ -31,7 +31,7 @@ GitHub 連結：[https://github.com/civilblur/youlag]()
 點進影片後，介面類似 YouTube 的劇院模式，播放影片時可以充分利用螢幕空間：
 
 ![](07.avif)
-往下滾動也能查看影片資訊欄的內容：
+向下滾動也能查看影片資訊欄的內容：
 
 ![](09.avif)
 
