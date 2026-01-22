@@ -1,6 +1,6 @@
 ---
 date: 2026-01-19T20:32:01+08:00
-title: Youlag：使 FreshRSS 煥然一新，並獲得偽 YouTube 視圖的擴充功能
+title: Youlag：使 FreshRSS 煥然一新，並獲得類 YouTube 視圖的擴充功能
 slug: youlag-freshrss-extension
 tags:
   - RSS
