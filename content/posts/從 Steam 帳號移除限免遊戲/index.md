@@ -1,6 +1,6 @@
 ---
 date: 2026-01-22T18:44:56+08:00
-title: 從 Steam 帳號移除那些汙染遊戲庫的限免遊戲
+title: 從 Steam 帳號移除汙染遊戲庫的限免遊戲
 slug: ""
 tags:
   - Steam
