@@ -8,7 +8,7 @@ tags:
 description: ""
 summary: ""
 cover: 07.avif
-draft: false
+draft: true
 ---
 以前貪圖 Steam 的 +1 快感，領了不少限時免費的遊戲，也不管有沒有興趣，先領再說！還要在 ptt 的 Steam 版設定「限免」關鍵字通知，絕不允許錯過！
 
