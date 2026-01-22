@@ -4,6 +4,7 @@ title: 以最懶人的方式用 Obsidian 寫 Hugo 部落格
 slug: ""
 tags:
   - Hugo
+  - Obsidian
 description: ""
 summary: ""
 cover: ""
