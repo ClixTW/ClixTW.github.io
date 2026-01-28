@@ -10,7 +10,7 @@ summary: ""
 cover: 03.avif
 draft: false
 ---
-還真的可以，啊???
+還真的可以，而且不用藉助第三方工具???
 
 ---
 
@@ -28,7 +28,7 @@ chrome://extensions/
 
 ![](02.avif)
 
-甚至能從 Chrome 線上應用程式商店安裝：
+甚至能從 Chrome 線上應用程式商店直接安裝：
 
 ![](03.avif)
 
@@ -36,7 +36,7 @@ chrome://extensions/
 
 ![](04.avif)
 
-重新啟動 Steam 以後也還在，但不確定客戶端更新後會不會消失。
+重新啟動 Steam 以後也還在，但不確定用戶端更新後會不會消失。
 
 > [!IMPORTANT]
 > - 慎裝來路不明的擴充功能，避免 Steam 帳號遭竊。
@@ -48,4 +48,4 @@ chrome://extensions/
 
 前幾天在 X 上看到有人提的，翻了好久實在找不到原推，容我不附連結了🙏
 
-一直都知道 Steam 包了 Chromium，但實在沒料到能直接這樣裝擴充功能啊，正愁 Millenium 不支援用 Flatpak 裝的 Steam 呢。
+一直都知道 Steam 包了 Chromium 進去，但實在沒料到能直接這樣安裝擴充功能啊。正愁 Millenium 不支援透過 Flatpak 裝的 Steam，很想念之前在 Steam 用戶端用 SteamDB 看價格的方便性呢。
