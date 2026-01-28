@@ -10,7 +10,7 @@ summary: ""
 cover: 03.avif
 draft: false
 ---
-還真的可以，而且不用藉助第三方工具???
+還真的可以，而且不用靠第三方工具???
 
 ---
 
@@ -48,4 +48,4 @@ chrome://extensions/
 
 前幾天在 X 上看到有人提的，翻了好久實在找不到原推，容我不附連結了🙏
 
-一直都知道 Steam 包了 Chromium 進去，但實在沒料到能直接這樣安裝擴充功能啊。正愁 Millenium 不支援透過 Flatpak 裝的 Steam，很想念之前在 Steam 用戶端用 SteamDB 看價格的方便性呢。
+一直都知道 Steam 包了 Chromium 進去，但實在沒料到能直接這樣安裝擴充功能啊。正愁 Millennium 不支援透過 Flatpak 裝的 Steam，有點想念之前可以在 Steam 用戶端用 SteamDB 看價格呢，現在又方便回來了。
