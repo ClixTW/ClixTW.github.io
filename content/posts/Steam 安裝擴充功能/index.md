@@ -16,11 +16,11 @@ draft: false
 
 ## 步驟
 
-在商店隨便找個連結，用滑鼠中鍵開啟，會得到一個獨立的瀏覽器視窗：
+在商店隨意找個連結，用滑鼠中鍵開啟，得到一個獨立的瀏覽器視窗：
 
 ![](01.avif)
 
-然後在地址欄輸入以下網址，進入擴充功能的管理頁面：
+接著在地址欄輸入以下網址，進入擴充功能的管理頁面：
 
 ```
 chrome://extensions/
@@ -42,7 +42,7 @@ chrome://extensions/
 > - 慎裝來路不明的擴充功能，避免 Steam 帳號遭竊。
 > - Augmented Steam 裝了無法正常運作，可能是內建的 Chromium 版本太舊？
 > - 事後想調整 SteamDB 設定，可以進入 SteamDB 的頁面，點擊 `左上角 Menu > Browser extension > 頁面上方 Options` 。
-> - Yellow Taxi Goes Vroom 好玩到爆炸。
+> - [Yellow Taxi Goes Vroom（Steam）](https://store.steampowered.com/app/2011780/Yellow_Taxi_Goes_Vroom/) 好玩到爆炸。
 
 ---
 
