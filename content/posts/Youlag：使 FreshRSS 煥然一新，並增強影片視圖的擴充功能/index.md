@@ -73,7 +73,7 @@ GitHub 連結：[https://github.com/civilblur/youlag](https://github.com/civilbl
 目前文章內的圖片沒有圓角，個人覺得有圓角和整個現代化的介面比較搭配，可啟用 FreshRSS 內建的擴充功能 `User CSS` ，並加入以下 CSS 啟用圖片圓角：
 
 ```css
-.flux_content img {
+.text img{
     border-radius: 18px;
 }
 ```
