@@ -1,5 +1,5 @@
 ---
-date: 2026-02-04T01:42:49+08:00
+date: 2026-02-04T01:38:49+08:00
 title: 曾經 YouTube 帳號差點遭到盜用的蠢經驗
 slug: almost-lost-my-youtube-channel
 tags:
