@@ -1,6 +1,7 @@
 ---
-title: "首頁"
+dismissible: true
 date: 2026-04-22
+title: "首頁"
 author:
   name: "ClixTW's Blog"
   title: "日文譯者‧影音工作者"
