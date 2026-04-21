@@ -26,7 +26,7 @@ main:
 
 social:
   - name: RSS
-    url: https://clixtw.github.io/index.xml
+    url: /index.xml
     weight: 10
     params:
       icon: rss
