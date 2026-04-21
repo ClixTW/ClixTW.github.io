@@ -1,16 +1,18 @@
-# baseURL: https://hugo-narrow.vercel.app/
 baseURL: https://clixtw.github.io/
-# languageCode: en-US
-languageCode: zh-TW
-# defaultContentLanguage: en
-defaultContentLanguage: zh-tw
+languageCode: zh-Hant
+defaultContentLanguage: zh-hant
 defaultContentLanguageInSubdir: false
-# title: Hugo Narrow
 title: ClixTW's Blog
 theme: "hugo-narrow"
 
 hasCJKLanguage: true
 enableEmoji: true
+
+
+# Main Section Configuration (Optional)
+# If not configured, Hugo will automatically select the section with the most pages
+# This configuration affects functions such as recent articles on the homepage, search index, and archive pages
+mainSections: ["posts"]  # Multiple values can be configured, e.g. ["posts", "blog", "articles"]
 
 permalinks:
   posts: /posts/:slug/
@@ -22,7 +24,7 @@ pagination:
   pagerSize: 6
   path: "page"
 
-# 分类法配置
+
 taxonomies:
   category: categories
   tag: tags
@@ -45,10 +47,10 @@ markup:
         mark:
           enable: true
         subscript:
-          enable: false
+          enable: true
         superscript:
-          enable: false   
-      strikethrough: false 
+          enable: true   
+      strikethrough: true 
   highlight:
     codeFences: true
     guessSyntax: false
@@ -61,7 +63,7 @@ markup:
 outputs:
   home: ["HTML", "RSS", "JSON", "WebAppManifest"]
 
-# 自定义输出格式
+# Custom output formats
 outputFormats:
   WebAppManifest:
     mediaType: "application/manifest+json"
@@ -72,4 +74,3 @@ module:
   hugoVersion:
     extended: true
     min: 0.146.0
-

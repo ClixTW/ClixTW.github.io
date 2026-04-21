@@ -29,6 +29,7 @@ social:
     weight: 10
     params:
       icon: rss
+      
   - name: Email
     url: mailto:a8aixy693@mozmail.com
     weight: 20
