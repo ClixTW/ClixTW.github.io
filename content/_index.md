@@ -1,7 +1,6 @@
 ---
-dismissible: true
-date: 2025-12-31
-title: "Home"
+title: "首頁"
+date: 2026-04-22
 author:
   name: "ClixTW's Blog"
   title: "日文譯者‧影音工作者"

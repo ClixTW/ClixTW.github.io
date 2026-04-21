@@ -11,17 +11,18 @@ main:
     params:
       icon: tags
 
-  - name: 歸檔
-    pageRef: /archives
-    weight: 30
-    params:
-      icon: archive
-
   - name: 項目
-    weight: 40
+    weight: 30
     pageRef: /projects
     params:
       icon: projects
+
+  - name: 歸檔
+    pageRef: /archives
+    weight: 40
+    params:
+      icon: archive
+
 
 social:
   - name: RSS

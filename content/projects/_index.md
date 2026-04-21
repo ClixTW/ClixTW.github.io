@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-description: "Explore my portfolio of projects, from web development to AI applications"
+title: "項目"
+description: "探索我的項目作品集。"
 ---
 
-Welcome to my projects showcase! Here you'll find a collection of my work, including web applications, open-source contributions, and experimental projects.
+🚧 施工中🚧
