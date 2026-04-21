@@ -1,6 +1,5 @@
 ---
-dismissible: true
-title: "首頁"
+title: "Home"
 date: 2026-04-22
 author:
   name: "ClixTW's Blog"
