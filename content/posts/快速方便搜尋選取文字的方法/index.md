@@ -1,12 +1,14 @@
 ---
 date: 2026-04-21T20:41:41+08:00
 title: 快速方便搜尋選取文字的方法
-slug: ""
+slug: quick-text-search
 tags:
-  - 
+  - Linux
+  - "#Kando"
+  - FOSS
 description: ""
 summary: ""
-cover: ""
+cover: 03.avif
 draft: false
 ---
 ## 前言
@@ -52,7 +54,7 @@ xdg-open "${SEARCH_ENGINE}${ENCODED_QUERY}"
 > [!note]
 > 可以修改最上面的 `SEARCH_ENGINE` 這個變數自訂搜尋引擎。
 
-3. 設定腳本可作為程式執行，並且 `~/.local/bin` 這個路徑已經加到環境變數，不過大多數發行版應該已經幫你做好了。
+3. 設定腳本可作為程式執行，並確認 `~/.local/bin` 這個路徑已經加到環境變數，不過大多數發行版應該已經幫你做好了。
 
 ## 綁定到快捷鍵
 
