@@ -17,10 +17,10 @@ draft: false
 
 一般來說，會需要選取想搜尋的文字→按下複製→切換到瀏覽器→打開網址列→貼上想搜尋的文字→按下 Enter 送出。
 
-我實在太懶惰了，沒辦法忍受每次搜尋都做一遍上面的動作。過去用 Windows 時，我會用手勢軟體 [WGestures（官網）](https://www.yingdev.com/projects/wgestures2)代勞，選取文字，按著右鍵鬼畫符就完成搜尋，但 Linux 沒有一個比較完善的手勢軟體，因此得用其他方式實現。
+我實在太懶惰了，沒辦法忍受每次搜尋都做一遍上面的動作。過去用 Windows 時，我會用手勢軟體 [WGestures](https://www.yingdev.com/projects/wgestures2) 代勞，選取文字，按著右鍵鬼畫符就完成搜尋，但 Linux 沒有一個比較完善的手勢軟體，因此得用其他方式實現。
 
 > [!note]
-> 話雖如此，我現在認為 [Kando（GitHub）](https://github.com/kando-menu/kando) 搭配 [Input Remapper（GitHub）](https://github.com/sezanzeb/input-remapper)的效果更好，設定上也更直觀。
+> 話雖如此，我現在認為 [Kando](https://github.com/kando-menu/kando) 搭配 [Input Remapper](https://github.com/sezanzeb/input-remapper) 的效果更好，設定上也更直觀。
 
 後來想到的一個辦法是寫一個腳本搭配快捷鍵或 Kando，效果非常好。
 
