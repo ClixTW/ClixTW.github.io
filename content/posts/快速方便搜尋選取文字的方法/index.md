@@ -4,8 +4,8 @@ title: 快速方便搜尋選取文字的方法
 slug: quick-text-search
 tags:
   - Linux
-  - "#Kando"
   - FOSS
+  - Kando
 description:
 summary: ""
 cover: 03.avif
