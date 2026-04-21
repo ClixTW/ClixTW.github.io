@@ -1,4 +1,5 @@
 ---
+dismissible: true
 title: "首頁"
 date: 2026-04-22
 author:
