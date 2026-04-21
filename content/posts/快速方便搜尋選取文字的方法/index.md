@@ -50,7 +50,7 @@ ENCODED_QUERY=$(python3 -c "import urllib.parse, sys; print(urllib.parse.quote(s
 xdg-open "${SEARCH_ENGINE}${ENCODED_QUERY}"
 ```
 
-> [!note]
+> [!tip]
 > 可以修改最上面的 `SEARCH_ENGINE` 這個變數自訂搜尋引擎。
 
 3. 設定腳本可作為程式執行，並確認 `~/.local/bin` 這個路徑已經加到環境變數，不過大多數發行版應該已經幫你做好了。
