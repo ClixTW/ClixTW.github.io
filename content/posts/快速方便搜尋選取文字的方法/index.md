@@ -19,6 +19,7 @@ draft: false
 
 我實在太懶惰了，沒辦法忍受每次搜尋都做一遍上面的動作。過去用 Windows 時，我會用手勢軟體 [WGestures（官網）](https://www.yingdev.com/projects/wgestures2)代勞，選取文字，按著右鍵鬼畫符就完成搜尋，但 Linux 沒有一個比較完善的手勢軟體，因此得用其他方式實現。
 
+> [!note]
 > 話雖如此，我現在認為 [Kando（GitHub）](https://github.com/kando-menu/kando) 搭配 [Input Remapper（GitHub）](https://github.com/sezanzeb/input-remapper)的效果更好，設定上也更直觀。
 
 後來想到的一個辦法是寫一個腳本搭配快捷鍵或 Kando，效果非常好。
@@ -79,6 +80,7 @@ Super+C hotkey-overlay-title="Search" { spawn-sh "search-selection"; }
 
 搜尋後會清空選取文字的暫存區，當暫存區裡沒內容的時候，會改為搜尋剪貼簿裡的文字。這在一些情況下很好用，比如整理 calibre 書庫時，對著書名欄位按下複製就可以接著搜尋，不用進入編輯再選取。
 
+> [!note]
 > 換句話說，搜尋剪貼簿裡的內容前，需要先清空選取的暫存區。實務上就是除了剛開機從未選取過內容，否則要先進行一次搜尋來清空。選擇這麼做而不是更簡潔的做法，是為了避免腳本需要額外的依賴項。
 
 ## 搭配 Kando 使用
