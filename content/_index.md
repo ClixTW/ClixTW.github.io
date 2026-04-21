@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "首頁"
 date: 2026-04-22
 author:
   name: "ClixTW's Blog"
