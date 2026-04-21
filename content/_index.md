@@ -9,7 +9,7 @@ author:
   avatar: "/images/avatar.avif"
   social:
     - name: "RSS"
-      url: "https://clixtw.github.io/index.xml"
+      url: "/index.xml"
       icon: "rss"
     - name: "Email"
       url: "mailto:a8aixy693@mozmail.com"
