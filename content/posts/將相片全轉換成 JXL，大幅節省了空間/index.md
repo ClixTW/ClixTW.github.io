@@ -3,8 +3,8 @@ date: 2026-01-16T17:52:10+08:00
 title: 將相片全轉換成 JXL，大幅節省了 2/3 的空間
 slug: jxl-saved-huge-space
 tags:
-  - Linux
   - JXL
+  - Linux
   - FOSS
 summary: ""
 cover: 03.avif
