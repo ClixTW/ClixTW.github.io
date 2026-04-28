@@ -47,7 +47,7 @@ flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 > 
 > 少數遊戲 Linux 版本和 Windows 版本存檔不互通，如果發現明明有支援雲端存檔，進了遊戲卻找不到以前的存檔，也可以透過強制使用 Proton 來解決。
 
-3. （可選）關閉著色器預存快取：
+4. （可選）關閉著色器預存快取：
 
 ![](09.avif)
 
