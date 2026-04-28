@@ -65,7 +65,7 @@ flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 
 如果不啟用著色器預存快取，由於可能遇到影片播放的問題，照理來說預設使用 GE-Proton 會比 Proton Experimental 更好。
 
-但實際上我沒碰過影片問題（當然是玩得少了，並非說這個問題不存在），反而發生幾次透過 GE-Proton 運作有問題，換成 Proton Experimental 卻一切正常的情況。因此後來便改成預設使用 Proton Experimental，遇到問題才嘗試 GE-Proton。
+但實際上我沒碰過影片問題（當然是玩得少了，並非說這個問題不存在），反而發生了幾次透過 GE-Proton 運作有問題，換成 Proton Experimental 卻一切正常的情況。因此後來便改成預設使用 Proton Experimental，遇到問題才嘗試 GE-Proton。
 
 ## Gamescope
 
@@ -168,7 +168,7 @@ sudo rm /etc/modules-load.d/ntsync.conf
 - 限制最高幀率低於螢幕更新率。
 - 開啟可變動更新率（FreeSync / G-Sync）。
 
-> [!ntoe]
+> [!note]
 > 更多資訊可參考這篇經典指南：[https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/)
 
 在 Linux 上，實現這幾點的操作和 Windows 不一樣，以下從垂直同步開始介紹。
