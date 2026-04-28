@@ -168,7 +168,7 @@ sudo rm /etc/modules-load.d/ntsync.conf
 - 限制最高幀率低於螢幕更新率。
 - 開啟可變動更新率（FreeSync / G-Sync）。
 
-> [!note]
+> [!tip]
 > 更多資訊可參考這篇經典指南：[https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/)
 
 在 Linux 上，實現這幾點的操作和 Windows 不一樣，以下從垂直同步開始介紹。
