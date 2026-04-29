@@ -102,11 +102,14 @@ Gamescope 是 Valve 專為遊戲開發的輕量視窗管理器，可以最大程
 flatpak install org.freedesktop.Platform.VulkanLayer.gamescope
 ```
 
-2. 新增環境變數讓 Steam 找得到 Gamescope：
+2. （可選）新增環境變數讓 Steam 找得到 Gamescope：
 
 ```sh
 flatpak override --user --env=PATH=/app/bin:/usr/bin:/usr/lib/extensions/vulkan/gamescope/bin com.valvesoftware.Steam
 ```
+
+> [!note]
+> 如果不執行此步驟，Steam 提供的 Proton 將無法和 Gamescope 搭配使用，必須使用 GE-Proton。
 
 3. 要透過 Gamescope 遊玩時，在遊戲的 Steam 啟動選項填入：
 
