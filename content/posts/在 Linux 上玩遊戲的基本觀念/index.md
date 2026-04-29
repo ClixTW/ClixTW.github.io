@@ -109,7 +109,7 @@ flatpak override --user --env=PATH=/app/bin:/usr/bin:/usr/lib/extensions/vulkan/
 ```
 
 > [!note]
-> 如果不執行此步驟，Steam 提供的 Proton 將無法和 Gamescope 搭配使用，必須使用 GE-Proton 才能正常運作。
+> 如果不執行此步驟，Steam 內建提供的 Proton 將無法和 Gamescope 搭配使用，必須使用 GE-Proton 才能正常運作。
 
 3. 要透過 Gamescope 遊玩時，在遊戲的 Steam 啟動選項填入：
 
