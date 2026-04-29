@@ -56,6 +56,33 @@ flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 > 
 > 少數遊戲由於缺乏專有媒體解碼器，若透過 Proton Experimental 執行，必須啟用著色器預存快取，從 Valve 下載預先轉換好的過場影片才能正常播放。但與其為此頻繁下載快取，我選擇在遇到這種情況時切換到 GE-Proton。
 
+### 開機自啟動
+
+由於 Steam 啟動速度頗慢，可以設定開機自動靜默啟動，想玩遊戲的時候就不用等待漫長的啟動時間了。
+
+在 Linux 下，會在開機時自動啟動 `~/.config/autostart` （`~` 代表家目錄）中的應用程式，所以要在這裡建立 Steam 的啟動捷徑。
+
+Ignition 是一個方便的工具，能夠透過圖形界面輕鬆管理啟動捷徑。這裡我們使用它來完成上述操作。
+
+1. 安裝 Ignition：
+
+```sh
+flatpak install io.github.flattool.Ignition
+```
+
+2. 點擊「+ NEW」並找到 Steam。
+3. 在「Command or Script」中尾端加上 `-silent`，表示靜默啟動：
+
+```
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=/app/bin/steam --file-forwarding com.valvesoftware.Steam @@u %U @@ -silent
+```
+
+4. 點擊右上角「Save」儲存。
+![](./10.avif)
+
+> [!tip]
+> 如果想在開機後自動進入 Steam Big Picture 模式，也可以改成加上 `steam://open/bigpicture`。
+
 ### 哪個 Proton 版本好？
 
 先簡單介紹兩個主要版本：
@@ -66,6 +93,8 @@ flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 如果不啟用著色器預存快取，由於可能遇到影片播放的問題，照理來說預設使用 GE-Proton 會比 Proton Experimental 更好。
 
 但實際上我沒碰過影片問題（當然是玩得少了，並非說這個問題不存在），反而發生了幾次透過 GE-Proton 運作有問題，換成 Proton Experimental 卻一切正常的情況。因此後來便改成預設使用 Proton Experimental，遇到問題才嘗試 GE-Proton。
+
+假如換了幾個 Proton 版本，遊戲運作還是有狀況，我會嘗試透過接下來要介紹的 Gamescope 來執行，通常都能解決問題。
 
 ## Gamescope
 
