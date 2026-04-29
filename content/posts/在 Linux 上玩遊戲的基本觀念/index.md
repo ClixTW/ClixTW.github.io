@@ -21,14 +21,10 @@ draft: false
 
 建議透過 Flatpak 安裝 Steam，保持系統套件乾淨，並且可以用擴充功能的方式安裝 GE-Proton，方便更新而不用額外安裝 ProtonPlus 來管理。
 
-1. 安裝 Steam：
-
-```sh
-flatpak install com.valvesoftware.Steam
-```
+1. 安裝 Steam：[https://flathub.org/en/apps/com.valvesoftware.Steam/install](https://flathub.org/en/apps/com.valvesoftware.Steam/install)
 
 > [!tip]
-> 其實透過 Bazaar 這類應用程式商店都能在圖形界面中操作，但方便起見本文會直接提供指令。
+> 如果點擊連結後，沒有自動跳轉到安裝畫面，可以安裝像 [Bazaar](https://flathub.org/en/apps/io.github.kolunmi.Bazaar) 這樣的應用程式商店，能夠非常方便地從 Flathub 安裝和管理應用程式。
 
 ![](07.avif)
 
@@ -37,6 +33,9 @@ flatpak install com.valvesoftware.Steam
 ```sh
 flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 ```
+
+> [!tip]
+> 目前不支援從網頁跳轉安裝應用程式的擴充功能，可以將上面這段指令貼到終端機進行安裝；也可以透過 Bazaar，在 Steam 的擴充功能（Add-ons）頁面中點擊安裝，兩種操作的結果完全一致。
 
 3. 在 Steam 設定中預設為遊戲啟用 Proton，建議選擇 Proton Experimental：
 
@@ -64,12 +63,7 @@ flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 
 Ignition 是一個方便的工具，能夠透過圖形界面輕鬆管理啟動捷徑。這裡我們使用它來完成上述操作。
 
-1. 安裝 Ignition：
-
-```sh
-flatpak install io.github.flattool.Ignition
-```
-
+1. 安裝 Ignition：[https://flathub.org/en/apps/io.github.flattool.Ignition/install](https://flathub.org/en/apps/io.github.flattool.Ignition/install)
 2. 點擊「+ NEW」並找到 Steam。
 3. 在「Command or Script」中尾端加上 `-silent`，表示靜默啟動：
 
@@ -241,12 +235,7 @@ flatpak override --user --env=MANGOHUD=1 com.valvesoftware.Steam
 
 #### 進行設定
 
-1. 安裝 Mango Juice：
-
-```sh
-flatpak install io.github.radiolamp.mangojuice
-```
-
+1. 安裝 Mango Juice：[https://flathub.org/en/apps/io.github.radiolamp.mangojuice/install](https://flathub.org/en/apps/io.github.radiolamp.mangojuice/install)
 2. 「Performance」→「Limiters FPS」→「late - 140 - 100 - 60 」
 
 ![](01.avif)
@@ -279,12 +268,7 @@ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffe
 
 也可以透過圖形介面輕鬆啟用：
 
-1. 安裝 Refine：
-
-```sh
-flatpak install page.tesk.Refine
-```
-
+1. 安裝 Refine：[https://flathub.org/en/apps/page.tesk.Refine/install](https://flathub.org/en/apps/page.tesk.Refine/install)
 2. 「Shell & Compositor」→「Variable Refresh Rate Options」，把選項開啟。
 
 ![](06.avif)
@@ -299,11 +283,7 @@ flatpak install page.tesk.Refine
 
 LACT 是一款很方便的顯示卡調整工具，用於監測顯示卡各項數據、超頻、控制風扇等等。這裡用它來達成降壓超頻的效果。
 
-- 安裝 LACT：
-
-```
-flatpak install io.github.ilya_zlobintsev.LACT
-```
+- 安裝 LACT：[https://flathub.org/en/apps/io.github.ilya_zlobintsev.LACT/install](https://flathub.org/en/apps/io.github.ilya_zlobintsev.LACT/install)
 
 有兩種方式可以實現降壓超頻，分別是透過「鎖定最高核心頻率及設定頻率偏移」間接達成，或是透過「編輯電壓頻率曲線」直接控制。
 
@@ -343,12 +323,7 @@ flatpak install io.github.ilya_zlobintsev.LACT
 
 許多遊戲的社群中文化或模組是提供 EXE 格式，例如 nick.exe、天邈漢化組都會用這種方式封裝，這時候可以藉助 Protontricks 來安裝。
 
-1. 安裝 Protontricks：
-
-```sh
-flatpak install com.github.Matoking.protontricks
-```
-
+1. 安裝 Protontricks：[https://flathub.org/en/apps/com.github.Matoking.protontricks/install](https://flathub.org/en/apps/com.github.Matoking.protontricks/install)
 2. 至少啟動過一次要安裝模組的遊戲，讓 Proton 建立環境。
 3. 在檔案管理器中對 EXE 格式的模組按下右鍵，選擇透過「Protontricks」啟動。
 4. 在 Protontricks 的介面中選擇目標遊戲，完成安裝。
