@@ -153,7 +153,7 @@ Gamescope 是 Valve 專為遊戲開發的輕量視窗管理器，可以最大程
 1. 建立環境變數設定：
 
    ```sh
-   nano ~/.config/environment.d/99-custom.conf
+   mkdir -p ~/.config/environment.d && nano ~/.config/environment.d/99-custom.conf
    ```
 
 2. 根據使用的顯示卡，新增以下內容，將限制提高到 12 GB：
