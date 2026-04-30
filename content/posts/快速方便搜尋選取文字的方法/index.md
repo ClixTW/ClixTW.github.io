@@ -26,32 +26,32 @@ draft: false
 1. 建立一個文字檔案在 `~/.local/bin` ，我把它叫做 `search-selection`。
 2. 文字檔案裡包含以下內容：
 
-```sh
-#!/bin/bash
+	```sh
+	#!/bin/bash
+	
+	# 自訂搜尋引擎
+	SEARCH_ENGINE="https://www.google.com/search?q="
+	# SEARCH_ENGINE="https://duckduckgo.com/?q="
+	
+	QUERY=$(wl-paste --primary --no-newline 2>/dev/null)
+	
+	if [ -n "$QUERY" ]; then
+	    wl-copy --clear --primary
+	else
+	    QUERY=$(wl-paste --no-newline 2>/dev/null)
+	fi
+	
+	if [ -z "$QUERY" ]; then
+	    exit 1
+	fi
+	
+	ENCODED_QUERY=$(python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.stdin.read()))" <<< "$QUERY")
+	
+	xdg-open "${SEARCH_ENGINE}${ENCODED_QUERY}"
+	```
 
-# 自訂搜尋引擎
-SEARCH_ENGINE="https://www.google.com/search?q="
-# SEARCH_ENGINE="https://duckduckgo.com/?q="
-
-QUERY=$(wl-paste --primary --no-newline 2>/dev/null)
-
-if [ -n "$QUERY" ]; then
-    wl-copy --clear --primary
-else
-    QUERY=$(wl-paste --no-newline 2>/dev/null)
-fi
-
-if [ -z "$QUERY" ]; then
-    exit 1
-fi
-
-ENCODED_QUERY=$(python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.stdin.read()))" <<< "$QUERY")
-
-xdg-open "${SEARCH_ENGINE}${ENCODED_QUERY}"
-```
-
-> [!tip]
-> 可以修改最上面的 `SEARCH_ENGINE` 這個變數自訂搜尋引擎。
+   > [!tip]
+   > 可以修改最上面的 `SEARCH_ENGINE` 這個變數自訂搜尋引擎。
 
 3. 設定腳本可作為程式執行，並確認 `~/.local/bin` 這個路徑已經加到環境變數，不過大多數發行版應該已經幫你做好了。
 
