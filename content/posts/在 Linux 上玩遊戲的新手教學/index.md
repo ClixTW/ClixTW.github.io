@@ -403,4 +403,6 @@ flatpak update
 
 也可以看看 CachyOS 的遊戲相關指南：[https://wiki.cachyos.org/configuration/gaming/](https://wiki.cachyos.org/configuration/gaming/)
 
+其實去年底開始在 Linux 玩遊戲，我就有記錄下每一款遊戲的運作情況（驚喜的是，目前為止九成都能順暢遊玩，剩下的只需稍加調整），等年底 Steam 推出年度回顧會再來分享。
+
 有哪裡說錯或不清楚，歡迎留言指正補充或發問，感謝！
