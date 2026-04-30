@@ -379,7 +379,7 @@ LACT 是一款很方便的顯示卡調整工具，用於監測顯示卡各項數
 
 如果使用的是 Fedroa Silverblue / Kinoite，或基於這類原子鏡像的發行版，比如 Universal Blue 的 Bluefin 或 Aurora，並且使用 NVIDIA 顯示卡，有可能在系統更新後，發生效能異常下降的情況。
 
-由於 Flatpak 採用沙盒機制，應用程式無法直接使用系統的 NVIDIA 驅動程式，而是透過 `org.freedesktop.Platform.GL.nvidia` 這個執行環境擴充功能來執行，而且版本必須和系統驅動的版本嚴格保持一致才能正常運作。
+由於 Flatpak 採用沙盒機制，應用程式無法直接使用系統的 NVIDIA 驅動程式，必須依賴 `org.freedesktop.Platform.GL.nvidia` 這個執行環境擴充功能，而且版本必須和系統驅動的版本嚴格保持一致才能正常運作。
 
 當原子鏡像的更新中包含了顯示卡驅動更新，重新啟動系統套用更新後，可能發生系統 NVIDIA 驅動和 Flatpak 執行環境版本不一致的情況，此時所有透過 Flatpak 安裝的應用程式，都會無法正常使用顯示卡。
 
