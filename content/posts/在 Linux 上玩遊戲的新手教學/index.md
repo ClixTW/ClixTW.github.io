@@ -40,7 +40,7 @@ draft: false
 ---
 ## Steam
 
-建議透過 Flatpak 安裝 Steam，保持系統套件乾淨，並且可以用擴充功能的方式安裝 GE-Proton，方便更新而不用額外安裝 ProtonPlus 來管理。
+推薦透過 Flatpak 安裝 Steam，保持系統套件乾淨，並且可以用擴充功能的方式安裝 GE-Proton，方便更新而不用額外安裝 ProtonPlus 來管理。
 
 1. 安裝 Steam：[https://flathub.org/en/apps/com.valvesoftware.Steam/install](https://flathub.org/en/apps/com.valvesoftware.Steam/install)
 
