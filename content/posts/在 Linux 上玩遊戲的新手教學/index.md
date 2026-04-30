@@ -318,6 +318,9 @@ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffe
 
 ![](05.avif)
 
+> [!note]
+> 如果沒出現這個選項，請嘗試重新啟動或登出再登入。
+
 ---
 
 ## 降壓超頻
