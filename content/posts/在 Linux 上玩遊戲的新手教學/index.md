@@ -41,7 +41,7 @@ draft: false
 
 ## Steam
 
-推薦透過 Flatpak 安裝 Steam，保持系統套件乾淨，並且可以用擴充功能的方式安裝 GE-Proton，方便更新而不用另外安裝 ProtonPlus 來管理。下文提到的 Gamescope 和 MangoHud 部分，也只適用於 Flatpak 版本的 Steam。
+可以透過原生套件管理器或 Flatpak 安裝 Steam。個人推薦透過 Flatpak 安裝，保持系統套件乾淨，並且能夠用擴充功能的方式安裝 GE-Proton，方便更新而不用另外安裝 ProtonPlus 來管理。下文提到關於 Gamescope 和 MangoHud 部分的做法，也只適用於 Flatpak 版本的 Steam。 
 
 1. 安裝 Steam：[https://flathub.org/en/apps/com.valvesoftware.Steam/install](https://flathub.org/en/apps/com.valvesoftware.Steam/install)
 
