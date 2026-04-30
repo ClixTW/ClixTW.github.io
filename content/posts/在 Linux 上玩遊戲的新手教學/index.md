@@ -396,7 +396,7 @@ flatpak update
 
 ---
 
-大概是這樣，如果想知道更多，各項目本身的文檔是很棒的資源，常常比網路上的隨機分享（包含這篇）更正確和全面。
+大概是這樣，如果想知道更多，各項目本身的文檔是很棒的資源，常常比網路上的隨機分享（包含這篇）更加正確和全面。
 
 也可以看看 CachyOS 的遊戲相關指南：[https://wiki.cachyos.org/configuration/gaming/](https://wiki.cachyos.org/configuration/gaming/)
 
