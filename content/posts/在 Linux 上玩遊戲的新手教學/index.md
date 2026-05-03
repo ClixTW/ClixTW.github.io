@@ -13,7 +13,7 @@ draft: false
 ---
 這篇文章包含了我在 Linux 上**所有**遊戲相關的設定。Linux 的使用體驗很好，我希望更多人願意嘗試，使用者多了才會受到廠商重視、投入資源，整個生態又會更好。
 
-在 Windows 玩遊戲需要做的一些調整，在 Linux 上做法可能截然不同。每件事都不難，對長期使用者來說或許是常識，但對 Linux 完全陌生的話，一項一項搞懂需要花費不少心力，許多事情甚至太基礎而少被提及。因此寫了這篇，希望能減少轉換的摩擦。
+在 Windows 玩遊戲需要做的一些調整，在 Linux 上做法可能截然不同。每件事都不難，對長期使用者來說或許是常識，但對 Linux 完全陌生的話，一項一項搞懂需要花費不少心力，許多事情甚至太基礎而少被提及。因此寫了這篇，希望能減輕轉換的摩擦。
 
 *本文特別適用但不限於：桌面環境是 GNOME 的 NVIDIA 顯示卡使用者。*
 
@@ -41,7 +41,7 @@ draft: false
 
 ## Steam
 
-可以透過原生套件管理器或 Flatpak 安裝 Steam。個人推薦透過 Flatpak 安裝，保持系統套件乾淨，並且能夠用擴充功能的方式安裝 GE-Proton，方便更新而不用另外安裝 ProtonPlus 來管理。下文提到關於 Gamescope 和 MangoHud 部分的做法，也只適用於 Flatpak 版本的 Steam。 
+可以透過原生套件管理器或 Flatpak 安裝 Steam。個人推薦透過 Flatpak 安裝，保持系統套件乾淨，並且能夠用擴充功能的方式安裝 GE-Proton，方便更新而不用另外安裝 ProtonPlus 來管理。下文提到關於 Gamescope 和 MangoHud 的做法，也只適用於 Flatpak 版本的 Steam。 
 
 1. 安裝 Steam：[https://flathub.org/en/apps/com.valvesoftware.Steam/install](https://flathub.org/en/apps/com.valvesoftware.Steam/install)
 
@@ -134,6 +134,8 @@ Gamescope 是 Valve 專為遊戲開發的輕量視窗管理器，可以最大程
 
    > [!note]
    > 如果不執行此步驟，Steam 內建提供的 Proton 將無法和 Gamescope 搭配使用，必須使用 GE-Proton 才能正常運作。
+   > 
+   > [Flatseal](https://flathub.org/en/apps/com.github.tchx84.Flatseal) 是一款用於管理 Flatpak 應用程式權限的工具，若以後不需要本文提到的 `flatpak override` 修改，都可以使用它來一鍵還原，非常方便。
 
 3. 要透過 Gamescope 遊玩時，在遊戲的 Steam 啟動選項填入：
 
