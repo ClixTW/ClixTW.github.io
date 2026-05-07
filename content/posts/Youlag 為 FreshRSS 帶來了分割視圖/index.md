@@ -38,7 +38,7 @@ draft: false
 }
 
 /* 調整 Code 樣式 */
-.text code {
+.text :is(li, p) code {
   background-color: #383838 !important;
   color: #FFFFFF !important;
   border: none !important;
