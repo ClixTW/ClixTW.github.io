@@ -44,6 +44,11 @@ draft: false
   border: none !important;
   border-radius: 6px !important;
 }
+
+/* 增加標題列邊距 */
+.content_thin.content header {
+    margin: 14px 0 !important;
+}
 ```
 
 > [!tip] 
