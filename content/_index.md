@@ -4,7 +4,7 @@ date: 2026-04-20
 title: "首頁"
 author:
   name: "ClixTW's Blog"
-  title: "日文譯者‧影音工作者"
+  title: "熱愛 FOSS 的日文譯者"
   description: "一些科技、日文和碎碎念。"
   avatar: "/images/avatar.avif"
   social:
