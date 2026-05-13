@@ -1,6 +1,6 @@
 ---
 date: 2026-04-28T20:39:50+08:00
-title: 在 Linux 上玩遊戲的新手教學
+title: 在 Linux 上玩遊戲的新手指南
 slug: linux-gaming-essentials
 tags:
   - Linux
