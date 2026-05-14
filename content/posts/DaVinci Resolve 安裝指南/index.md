@@ -111,6 +111,9 @@ OK！廢話結束，進到正題吧。
 	unset fix_needed lib
 	```
 
+> [!tip]
+> 上游的 Distrobox 已經合併了[修復的 PR](https://github.com/89luca89/distrobox/pull/2034)，版本更新後應該就不會遇到這個問題了。
+
 ---
 
 *容器操作結束，以下指令皆不在容器中執行。*
