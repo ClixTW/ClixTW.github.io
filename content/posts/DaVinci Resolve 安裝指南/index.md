@@ -91,6 +91,9 @@ OK！廢話結束，進到正題吧。
 
 根據網路上討論，Distrobox 有一個錯誤：停止並重新啟動容器後，容器內的 NVIDIA 運行環境符號連結會失效，導致容器中的軟體只在第一次啟動時能正常使用 CUDA。我們可以在啟動腳本加上確認機制，如果連結出問題就重建一遍，來暫時規避這個問題。
 
+> [!note]
+> 上游的 Distrobox 已經合併了[修復的 PR](https://github.com/89luca89/distrobox/pull/2034)，版本更新後應該就不會遇到這個問題了。
+
 1. 修改啟動腳本：
 
 	```sh
@@ -110,9 +113,6 @@ OK！廢話結束，進到正題吧。
 	[ $fix_needed -eq 1 ] && sudo ldconfig
 	unset fix_needed lib
 	```
-
-> [!tip]
-> 上游的 Distrobox 已經合併了[修復的 PR](https://github.com/89luca89/distrobox/pull/2034)，版本更新後應該就不會遇到這個問題了。
 
 ---
 
