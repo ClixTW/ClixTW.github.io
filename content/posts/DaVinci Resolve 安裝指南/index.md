@@ -22,7 +22,7 @@ Blackmagic Design 旗下的 DaVinci Resolve 是一款功能強大的影片剪輯
 
 OK！廢話結束，進到正題吧。
 
-*以下內容皆以 DaVinci Resolve Studio 20.3.2 版本驗證過。*
+*以下內容皆在 Bluefin 上，以 DaVinci Resolve Studio 20.3.2 版本驗證過。*
 
 ---
 
