@@ -18,7 +18,7 @@ Blackmagic Design 旗下的 DaVinci Resolve 是一款功能強大的影片剪輯
 
 解決完輸入法問題後，如果你是 NVIDIA 顯示卡的使用者，再次恭喜！安裝完的第一次啟動，一切都運作得那麼完美。直到隔天，再次打開 Resolve，會發現怎麼這麼卡頓，甚至沒辦法正常輸出影片，檢查才發現 Resolve 找不到 CUDA 了。不對呀…昨天不是好好的嗎？原來[只有第一次啟動容器才能正確認到 CUDA，第二次就會找不到了](https://github.com/zelikos/davincibox/issues/154)。還好一樣有些解法，當初也是花了好大的功夫才找到問題點並解決。
 
-雖然看起來很麻煩，但相比於 Windows，在 Linux 透過 Distrobox 安裝 Resolve 還是有好處的。由於 Distrobox 可以為容器指定家目錄，所以能夠避免 Resolve 在文件、影片等使用者目錄裡~~拉屎~~放資料，通通放在自己希望的位置，強迫症狂喜！
+雖然聽起來很麻煩，但相比於 Windows，在 Linux 透過 Distrobox 安裝 Resolve 還是有好處的。由於 Distrobox 可以為容器指定家目錄，所以能夠避免 Resolve 在文件、影片等使用者目錄裡~~拉屎~~放資料，通通放在自己希望的位置，強迫症狂喜！
 
 OK！廢話結束，進到正題吧。
 
