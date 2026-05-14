@@ -1,6 +1,6 @@
 ---
 date: 2026-05-14T23:25:34+08:00
-title: DaVinci Resolve 部署指南
+title: DaVinci Resolve 安裝指南
 slug: davinci-resolve-davincibox-guide
 tags:
   - Linux
