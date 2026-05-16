@@ -15,7 +15,7 @@ draft: false
 
 雖然整體來說很好用，由於 GNOME Shell 本身的成熟度，個人認為在一些部分不輸 niri 搭配 DankMaterialShell 或 Noctalia Shell。新維護者接手以後，也很快就支援了 GNOME 50，有受到積極維護。
 
-但 PaperWM 有個[視覺錯誤的問題](https://github.com/paperwm/PaperWM/issues/932)一直滿困擾我。在雙螢幕環境下，如果透過 GNOME 本身的快捷鍵跳轉到特定工作區（我設定成 Alt + 1 / 2 / 3 / 4），或是按下 Alt + Tab 切換位於不同工作區的視窗，另外一個螢幕上的視窗就會消失再出現閃爍一下，有些煩心。
+但 PaperWM 有個[視覺錯誤的問題](https://github.com/paperwm/PaperWM/issues/932)一直滿困擾我。在雙螢幕環境下，如果透過 GNOME 本身的快捷鍵跳轉到特定工作區（我設定成 Alt + 1 / 2 / 3 / 4），或是按下 Alt + Tab 切換位於不同工作區的視窗，另外一個螢幕上的視窗就會消失再出現閃爍一下，有些分散注意力。
 
 沒想到前陣子裝了一個移除工作區切換動畫的擴充功能，誤打誤撞順便消除了這個視覺錯誤。
 
