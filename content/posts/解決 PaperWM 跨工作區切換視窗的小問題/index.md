@@ -19,7 +19,7 @@ draft: false
 
 沒想到前陣子裝了一個移除工作區切換動畫的擴充功能，誤打誤撞順便消除了這個視覺錯誤。
 
-- **Instant Workspace Switcher for GNOME 40+**：[https://github.com/amalantony/gnome-shell-extension-instant-workspace-switcher](https://github.com/amalantony/gnome-shell-extension-instant-workspace-switcher)
+- **Instant Workspace Switcher for GNOME 40+：** [https://github.com/amalantony/gnome-shell-extension-instant-workspace-switcher](https://github.com/amalantony/gnome-shell-extension-instant-workspace-switcher)
 
 啟用這個擴充功能以後，除了透過 GNOME 的快捷鍵跳轉工作區沒有動畫，副螢幕的視窗也不再閃爍了，體驗好了很多。
 
