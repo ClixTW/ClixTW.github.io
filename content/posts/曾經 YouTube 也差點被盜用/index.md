@@ -10,7 +10,7 @@ summary: ""
 cover: 01.avif
 draft: false
 ---
-今天在 ptt 看到酷的夢 YouTube 頻道被盜用的[消息（ptt）](https://www.ptt.cc/bbs/Gossiping/M.1769985731.A.684.html)。我其實不認識這個頻道，但看完事情的經過，不禁感嘆這種盜用 YouTube 帳號的社交工程攻擊手法又進化了，依然持續有創作者深受其害。
+今天在 ptt 看到[酷的夢 YouTube 頻道被盜用的消息](https://www.ptt.cc/bbs/Gossiping/M.1769985731.A.684.html)。我其實不認識這個頻道，但看完事情的經過，不禁感嘆這種盜用 YouTube 帳號的社交工程攻擊手法又進化了，依然持續有創作者深受其害。
 
 有些人或許懶得點進去看，我簡單整理一下他頻道被盜用的經過，然後再分享自己過去碰到類似事件的經驗。
 
@@ -29,7 +29,7 @@ draft: false
 
 大概 3 年前（2023 年），我其實也有遇過類似的社交工程攻擊，當下我沒有意識到對方心懷不軌，但幸好最後並未中招。趁這個機會分享一下事情經過。
 
-一開始對方自稱是 Heart Machine 的行銷經理，這是一間小有名氣的獨立遊戲工作室。我本來沒聽過，但上 Steam 一看，發現電子郵件第一段提到的那兩款作品《[Hyper Light Drifter（Steam）](https://store.steampowered.com/app/257850/Hyper_Light_Drifter/?snr=1_7_7_230_150_1)》和《[Solar Ash（Steam）](https://store.steampowered.com/app/1867530/Solar_Ash/?snr=1_7_7_230_150_1)》，都有我的朋友加進了願望清單。
+一開始對方自稱是 Heart Machine 的行銷經理，這是一間小有名氣的獨立遊戲工作室。我本來沒聽過，但上 Steam 一看，發現電子郵件第一段提到的那兩款作品《[Hyper Light Drifter](https://store.steampowered.com/app/257850/Hyper_Light_Drifter/?snr=1_7_7_230_150_1)》和《[Solar Ash](https://store.steampowered.com/app/1867530/Solar_Ash/?snr=1_7_7_230_150_1)》，都有我的朋友加進了願望清單。
 
 對方表示有新遊戲要上市，想邀請我合作進行宣傳。我的頻道其實不太適合做這件事，但當時不覺得找上我很意外，以為只是語言隔閡造成了誤會。
 

@@ -54,10 +54,10 @@ chrome://extensions/
 > - 事後想調整 SteamDB 設定，可以隨意進入一個 SteamDB 頁面，點擊 `左上角 Menu > Browser extension > 頁面上方 Options`。我這裡直接從管理頁面跳轉到選項會當掉。
 > - 可以把 `chrome://extensions/` 加入書籤，點擊加號新增分頁的時候，就能快速開啟了。
 > - 其他諸如 `chrome://settings/`、`chrome://flags/` 也是通的。
-> - [Yellow Taxi Goes Vroom（Steam）](https://store.steampowered.com/app/2011780/Yellow_Taxi_Goes_Vroom/)好玩到爆炸，推推。
+> - 《[Yellow Taxi Goes Vroom](https://store.steampowered.com/app/2011780/Yellow_Taxi_Goes_Vroom/)》好玩到爆炸，推推。
 
 ## 結語
 
 一直都知道 Steam 包了 Chromium 進去，但總覺得不可能沒擋這麼低級的做法，所以從來沒試過，沒想到就真的沒擋。算是上了一課，遇到事情別想太多，說不定障礙只是自己憑空想像出來的。
 
-不過也好，因為 Millennium 不支援透過 Flatpak 裝的 Steam，才在想該怎麼辦呢。現在又和以前一樣方便了，可以直接在 Steam 用戶端用 SteamDB 看史低和 HLTB 囉。
+不過也好，因為 Millennium 不支援透過 Flatpak 裝的 Steam，才在想該怎麼辦呢。現在又和以前一樣方便了，可以直接在 Steam 用戶端用 SteamDB 看史低和 HLTB 囉！

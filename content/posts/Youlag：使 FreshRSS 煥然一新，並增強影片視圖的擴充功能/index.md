@@ -11,7 +11,7 @@ summary: ""
 cover: 01.avif
 draft: false
 ---
-這是我的 2026 年 1 月份 BlogBlog 同樂會投稿，[一起來共襄盛舉吧（BlogBlog.Club）](https://blogblog.club/party)。
+這是我的 2026 年 1 月份 BlogBlog 同樂會投稿，[一起來共襄盛舉吧](https://blogblog.club/party)！
 
 ---
 

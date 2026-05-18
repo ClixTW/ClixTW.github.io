@@ -49,6 +49,11 @@ draft: false
 .content_thin.content header {
     margin: 14px 0 !important;
 }
+
+/* 列表標題粗體 */
+.multiline.title.item-element {
+    font-weight: bold !important;
+}
 ```
 
 > [!tip] 

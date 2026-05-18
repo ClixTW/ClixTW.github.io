@@ -42,9 +42,9 @@ draft: false
 
 ## 使用工具
 
-一開始我是用 [Switcheroo（Flathub）](https://flathub.org/en/apps/io.gitlab.adhami3310.Converter)，後來才發現不能保留相片元數據，導致相片排序只看最後修改時間，會整個亂掉；而且沒辦法處理多目錄和子目錄，目錄一多處理起來會很痛苦，於是找了其他工具來用。不過日常比如寫部落格時，用來處理少量圖像還是很好用，右鍵選擇用 Switcheroo 開啟就能轉換。
+一開始我是用 [Switcheroo](https://flathub.org/en/apps/io.gitlab.adhami3310.Converter)，後來才發現不能保留相片元數據，導致相片排序只看最後修改時間，會整個亂掉；而且沒辦法處理多目錄和子目錄，目錄一多處理起來會很痛苦，於是找了其他工具來用。不過日常比如寫部落格時，用來處理少量圖像還是很好用，右鍵選擇用 Switcheroo 開啟就能轉換。
 
-最後找到同樣是開源軟體的 [XL Converter（Flathub）](https://flathub.org/apps/eu.codepoems.xl-converter)，這個軟體除了 UI 極客了點之外，真是棒極了！名字裡有個 XL，明顯是專注在 JXL 開發的軟體，給人十足的信心（但也支援轉換成 AVIF 等其他許多格式）；能自動處理子目錄，只需要把整個相簿目錄拖進去，底下好幾層子目錄裡的檔案也會轉換，非常方便；支援 JXL 的無損轉碼，雖然我用不到，但對一些人來說應該滿有吸引力；允許保留時間戳和元數據，方便在看圖軟體內正確排序。
+最後找到同樣是開源軟體的 [XL Converter](https://flathub.org/apps/eu.codepoems.xl-converter)，這個軟體除了 UI 極客了點之外，真是棒極了！名字裡有個 XL，明顯是專注在 JXL 開發的軟體，給人十足的信心（但也支援轉換成 AVIF 等其他許多格式）；能自動處理子目錄，只需要把整個相簿目錄拖進去，底下好幾層子目錄裡的檔案也會轉換，非常方便；支援 JXL 的無損轉碼，雖然我用不到，但對一些人來說應該滿有吸引力；允許保留時間戳和元數據，方便在看圖軟體內正確排序。
 
 ![03.avif](03.avif "個人轉換設定，僅供參考")
 
@@ -64,17 +64,17 @@ draft: false
 
 老實說一切都沒問題，害我一開始以為這個格式的支援度已經很高，直到放到手機上才發現哭啊居然沒辦法看。幸好還是有開源的第三方軟體能正常檢視，不過有踩了一下坑。
 
-目前推薦使用 [Fossify Gallery（Google Play）](https://play.google.com/store/apps/details?id=org.fossify.gallery)，能夠正常顯示 JXL 格式的相片，縮圖顯示速度也很快。不過需要注意的是，編輯時會出現錯誤，簡單的裁切都不行，在意的話還是選擇 AVIF 吧。
+目前推薦使用 [Fossify Gallery](https://play.google.com/store/apps/details?id=org.fossify.gallery)，能夠正常顯示 JXL 格式的相片，縮圖顯示速度也很快。不過需要注意的是，編輯時會出現錯誤，簡單的裁切都不行，在意的話還是選擇 AVIF 吧。
 
 ![06.avif](06.avif)
 
-其實我更喜歡 [Gallery（GitHub）](https://github.com/IacobIonut01/Gallery) 這款相簿軟體，介面非常漂亮現代，離線跑在裝置上的 AI 圖片分類功能也很棒。~~可惜目前對 JXL 的支援還不夠完整，最新的版本只能顯示不包含元數據的相片，如果沒清除元數據就會顯示錯誤，但舊版本（3.1.2）沒問題，就是縮圖顯示慢一些，已經有人提了 [Issue](https://github.com/IacobIonut01/Gallery/issues/756)，期待未來能修復囉。~~ 4.1.1 版本已經修復了這個問題，現在使用起來非常好！
+其實我更喜歡 [ReFra](https://github.com/IacobIonut01/Gallery) 這款相簿軟體，介面非常漂亮現代，離線跑在裝置上的 AI 圖片分類功能也很棒。~~可惜目前對 JXL 的支援還不夠完整，最新的版本只能顯示不包含元數據的相片，如果沒清除元數據就會顯示錯誤，但舊版本（3.1.2）沒問題，就是縮圖顯示慢一些，已經有人提了 [Issue](https://github.com/IacobIonut01/Gallery/issues/756)，期待未來能修復囉。~~ 4.1.1 版本已經修復了這個問題，現在使用起來體驗非常好！
 
 ## 排序問題
 
-儘管目前許多軟體可以正常檢視相片，但可能無法讀取完整的元數據，因此會依照最後修改時間排序相片，而不是元數據裡的原始建立時間。我有許多老相片的最後修改時間，可能由於過去管理不當，最後修改時間是錯的，和實際的拍攝日期差很遠，在相簿軟體比如 [Fotema（Flathub）](https://flathub.org/en/apps/app.fotema.Fotema) 裡，就會排序得亂七八糟。
+儘管目前許多軟體可以正常檢視相片，但可能無法讀取完整的元數據，因此會依照最後修改時間排序相片，而不是元數據裡的原始建立時間。我有許多老相片的最後修改時間，可能由於過去管理不當，最後修改時間是錯的，和實際的拍攝日期差很遠，在相簿軟體比如 [Fotema](https://flathub.org/en/apps/app.fotema.Fotema) 裡，就會排序得亂七八糟。
 
-但在轉換時，我們有保留元數據，所以可以用裡面的`原始建立時間`取代`最後修改時間`，也有很方便的工具 [ExifTool（官網）](https://exiftool.org/) 幫助完成這個工作。
+但在轉換時，我們有保留元數據，所以可以用裡面的`原始建立時間`取代`最後修改時間`，也有很方便的工具 [ExifTool](https://exiftool.org/) 幫助完成這個工作。
 
 如果你使用 Bluefin 或 Bazzite，系統已經包含了 Homebrew，可以方便地用以下指令安裝：
 
