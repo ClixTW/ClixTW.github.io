@@ -100,9 +100,9 @@ flatpak run --command="/bin/bash" org.gnome.Boxes -c "virsh attach-device $vm_ch
 ```
 
 > [!NOTE]
-> - 儲存為 `boxes-usb-passthrough` 放到 `~/.local/bin`（其實都隨意啦），並允許作為程式執行。
+> - 檔名取為 `boxes-usb-passthrough` 放到 `~/.local/bin`（其實都隨意啦），並允許作為程式執行。
 > - 須先開啟 GNOME Boxes 並啟動好虛擬機，再呼叫這個腳本。
-> - 輸入數字選擇目標 USB 裝置；輸入 sudo 密碼（手動操作也需要）；最後輸入數字選擇目標虛擬機就可以了。
+> - 輸入數字選擇目標 USB 裝置→輸入 sudo 密碼（手動操作也需要）→最後輸入數字選擇目標虛擬機就可以了。
 
 ![](01.avif  "哎呀，接了什麼 USB 裝置都被看光光了")
 
