@@ -1,6 +1,6 @@
 # Basic site info with SEO
-description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
-keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
+description: "歡迎來到我的個人部落格，這裡有一些關於科技、日文的雜記，記錄了我真正在乎的事物。"
+keywords: ["Blog", "Technology", "Japanese"]
 defaultAuthor: "ClixTW"
 language: "zh-Hant"
 shortName: "Hugo Narrow" # PWA
