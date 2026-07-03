@@ -11,9 +11,9 @@ summary:
 description:
 draft: false
 ---
-最近想調整 Razer 滑鼠的 DPI，但手邊已經沒有任何 Windows 裝置，所以需要透過虛擬機 USB 直通來達成。目前 Flatpak 版的 GNOME Boxes 尚未支援 USB 直通功能，但我不想只為了這點小事，就給原子鏡像添加疊加層或切換到開發者鏡像。
+最近想調整 Razer 滑鼠的 DPI，但手邊已經沒有任何 Windows 裝置，所以需要透過虛擬機 USB 直通來達成。目前 Flatpak 版的 GNOME Boxes 尚未支援 USB 直通功能，但我用的是原子鏡像，不想只為了這點小事就添加分層，或切換到具備完整虛擬機功能的開發者鏡像。
 
-幸好在 GNOME Boxes 的儲存庫找到了一個[暫時解法](https://gitlab.gnome.org/GNOME/gnome-boxes/-/work_items/236#note_1858728)，實測後的確有效，記錄在這裡，最後也會附上一個簡單的互動式腳本。
+幸好在 GNOME Boxes 的儲存庫找到了一個[暫時解法](https://gitlab.gnome.org/GNOME/gnome-boxes/-/work_items/236#note_1858728)，實測後的確有效，成功調整了滑鼠設定，也順便更新了幾個裝置的韌體。在這裡記錄一下做法，最後也會附上一個簡單的互動式腳本。
 
 ---
 
@@ -52,7 +52,7 @@ draft: false
 	```
 
    > [!NOTE]
-    > - 一樣別忘了修改虛擬機名稱、Bus 號碼與 Device 號碼。可使用 `virsh list --all` 查詢虛擬機名稱。
+    > - 同樣別忘了修改虛擬機名稱、Bus 號碼與 Device 號碼。可使用 `virsh list --all` 查詢虛擬機名稱。
     > - 執行此步驟後，目標裝置在宿主機上將暫時無法使用。若為鍵鼠，請先準備其他裝置進行操作。
 
 6. 成功掛載後，在 Windows 虛擬機中完成需要的操作。
@@ -61,7 +61,7 @@ draft: false
 
 ## 自動化腳本
 
-用 LLM 寫了一個簡單的腳本來簡化操作，效果不錯。如果嫌手動操作麻煩可以用用。
+用 LLM 寫了一個簡單的腳本來簡化操作，邏輯和上述的手動操作相同，效果不錯。如果嫌手動操作麻煩可以用用。
 
 ```sh
 #!/bin/bash
