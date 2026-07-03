@@ -11,11 +11,11 @@ main:
     params:
       icon: tags
 
-  - name: 項目
-    weight: 30
-    pageRef: /projects
-    params:
-      icon: projects
+#  - name: 項目
+#    weight: 30
+#    pageRef: /projects
+#    params:
+#      icon: projects
 
   - name: 歸檔
     pageRef: /archives
