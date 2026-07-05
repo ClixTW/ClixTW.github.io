@@ -65,7 +65,7 @@ draft: false
 
 ```sh
 #!/bin/bash
-set -e
+set -Eeuo pipefail
 
 # Get and select USB device
 mapfile -t usb_list < <(lsusb)
@@ -100,6 +100,7 @@ flatpak run --command="/bin/bash" org.gnome.Boxes -c "virsh attach-device $vm_ch
 ```
 
 > [!NOTE]
+> - ⚠️目前部落格程式碼區塊的複製按鈕似乎有問題，最好手動反白複製。
 > - 檔名取為 `boxes-usb-passthrough` 放到 `~/.local/bin`（其實都隨意啦），並允許作為程式執行。
 > - 須先開啟 GNOME Boxes 並啟動好虛擬機，再呼叫這個腳本。
 > - 輸入數字選擇目標 USB 裝置→輸入 sudo 密碼（手動操作也需要）→最後輸入數字選擇目標虛擬機就可以了。
@@ -114,4 +115,4 @@ flatpak run --command="/bin/bash" org.gnome.Boxes -c "virsh attach-device $vm_ch
 
 ---
 
-~~以後買周邊，一定挑能夠透過網頁調整的。~~
+以後買周邊，一定挑能夠透過網頁調整的，改個設定還要開虛擬機太麻煩啦。
