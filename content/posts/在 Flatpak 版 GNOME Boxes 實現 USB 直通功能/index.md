@@ -67,7 +67,6 @@ draft: false
 #!/bin/bash
 set -Eeuo pipefail
 
-# Get and select USB device
 mapfile -t usb_list < <(lsusb)
 echo "Select the USB device to pass through:"
 for i in "${!usb_list[@]}"; do
@@ -76,16 +75,13 @@ done
 read -r -p "Enter a number and press Enter: " choice
 usb_choice="${usb_list[$((choice-1))]}"
 
-# Extract and format Bus and Device numbers
 bus=$(echo "$usb_choice" | awk '{print $2}')
 dev=$(echo "$usb_choice" | awk '{print $4}' | tr -d ':')
 bus_xml=$((10#$bus))
 dev_xml=$((10#$dev))
 
-# Modify device permissions
 sudo chown "$USER:$USER" "/dev/bus/usb/$bus/$dev"
 
-# Get and select target VM
 echo "Select the target virtual machine:"
 mapfile -t vm_list < <(flatpak run --command="virsh" org.gnome.Boxes list --name | awk 'NF')
 for i in "${!vm_list[@]}"; do
@@ -94,7 +90,6 @@ done
 read -r -p "Enter a number and press Enter: " choice
 vm_choice="${vm_list[$((choice-1))]}"
 
-# Generate XML and attach device
 xml_data="<hostdev mode='subsystem' type='usb' managed='yes'><source><address bus='$bus_xml' device='$dev_xml'/></source></hostdev>"
 flatpak run --command="/bin/bash" org.gnome.Boxes -c "virsh attach-device $vm_choice <(echo \"$xml_data\")"
 ```
