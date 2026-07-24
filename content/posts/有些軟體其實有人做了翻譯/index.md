@@ -25,13 +25,13 @@ Linux 上的許多軟體可能明明有中文，卻永遠只顯示英文介面�
 
 - 如果是使用 systemd 的發行版，在 `~/.config/environment.d` 建立一個 `locale.conf` 文件（檔名隨意，以 `.conf` 結尾就好），裡面寫上：
 
-	```
+	```ini
 	LANGUAGE=zh_TW:zh_Hant:en
 	```
 
 - 想更激進一點，寧願看到簡體字，也不想看到英文的話：
 
-	```
+	```ini
 	LANGUAGE=zh_TW:zh_Hant:zh_CN:zh_Hans:en
 	```
 
