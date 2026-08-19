@@ -8,7 +8,7 @@ tags:
   - Steam
 description: ""
 summary: ""
-cover: 07.avif
+cover:
 draft: false
 ---
 這篇文章包含了我在 Linux 上**所有**遊戲相關的設定。Linux 的使用體驗很好，我希望更多人願意嘗試，使用者多了才會受到廠商重視、投入資源，整個生態又會更好。

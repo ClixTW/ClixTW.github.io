@@ -8,7 +8,7 @@ tags:
   - FOSS
 description: 前幾天把自架的 RSS 服務從 Miniflux 換成了 FreshRSS，最關鍵的理由是 Youlag 更新了一個本人期待很久的功能：允許自訂在哪些分類使用影片視圖。本來只能全局或關閉，想看文章列表就得經常手動切換。
 summary: ""
-cover: 01.avif
+cover:
 draft: false
 ---
 這是我的 2026 年 1 月份 BlogBlog 同樂會投稿，[一起來共襄盛舉吧](https://blogblog.club/party)！

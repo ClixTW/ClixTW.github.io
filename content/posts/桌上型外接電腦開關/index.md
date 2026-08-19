@@ -5,7 +5,7 @@ slug: desktop-external-power-button
 tags:
   - 硬體周邊
   - DIY
-cover: 01.avif
+cover:
 summary: ""
 description: ""
 draft: false

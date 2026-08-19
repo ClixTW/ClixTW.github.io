@@ -8,7 +8,7 @@ tags:
   - YouTube
 description: ""
 summary: ""
-cover: 01.avif
+cover:
 draft: false
 ---
 今天在 ptt 看到[酷的夢 YouTube 頻道被盜用的消息](https://www.ptt.cc/bbs/Gossiping/M.1769985731.A.684.html)。我其實不認識這個頻道，但看完事情的經過，不禁感嘆這種盜用 YouTube 帳號的社交工程攻擊手法又進化了，依然持續有創作者深受其害。

@@ -7,7 +7,7 @@ tags:
   - Gaming
 description: ""
 summary:
-cover: 03.avif
+cover:
 draft: false
 ---
 還真的可以，而且不用靠第三方工具。

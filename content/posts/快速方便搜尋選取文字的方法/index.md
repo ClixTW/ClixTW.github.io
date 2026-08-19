@@ -8,7 +8,7 @@ tags:
   - Kando
 description:
 summary: ""
-cover: 03.avif
+cover:
 draft: false
 ---
 使用電腦時，無論是做個人研究，還是翻譯工作，我都經常需要搜尋看到的文字。

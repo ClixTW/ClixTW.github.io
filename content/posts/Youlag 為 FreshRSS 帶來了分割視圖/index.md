@@ -6,7 +6,7 @@ tags:
   - 碎碎念
   - RSS
   - FOSS
-cover: 01.avif
+cover:
 summary: ""
 description: ""
 draft: false
