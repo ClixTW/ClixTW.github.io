@@ -4,6 +4,7 @@ title: 曾經 YouTube 帳號差點遭到盜用的蠢經驗
 slug: almost-lost-my-youtube-channel
 tags:
   - 碎碎念
+  - 資訊安全
   - YouTube
 description: ""
 summary: ""
