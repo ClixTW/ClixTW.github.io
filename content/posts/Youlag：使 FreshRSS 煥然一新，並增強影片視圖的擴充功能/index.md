@@ -4,8 +4,7 @@ title: Youlag：使 FreshRSS 煥然一新，並獲得類 YouTube 視圖的擴充
 slug: youlag-freshrss-extension
 tags:
   - RSS
-  - Self-hosting
-  - FOSS
+  - FreshRSS
 description: 前幾天把自架的 RSS 服務從 Miniflux 換成了 FreshRSS，最關鍵的理由是 Youlag 更新了一個本人期待很久的功能：允許自訂在哪些分類使用影片視圖。本來只能全局或關閉，想看文章列表就得經常手動切換。
 summary: ""
 cover:

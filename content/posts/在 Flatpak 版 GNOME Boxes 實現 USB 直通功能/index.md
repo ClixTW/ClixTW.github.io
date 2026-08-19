@@ -3,9 +3,8 @@ date: 2026-07-03T01:22:10+08:00
 title: 在 Flatpak 版 GNOME Boxes 實現 USB 直通功能
 slug: gnome-boxes-usb-passthrough
 tags:
-  - FOSS
-  - GNOME
   - Linux
+  - GNOME
 cover: cover.avif
 summary:
 description:

@@ -5,7 +5,7 @@ slug: youlag-freshrss-split-view
 tags:
   - 碎碎念
   - RSS
-  - FOSS
+  - FreshRSS
 cover:
 summary: ""
 description: ""

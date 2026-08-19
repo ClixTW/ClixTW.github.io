@@ -5,7 +5,6 @@ slug: jxl-saved-huge-space
 tags:
   - JXL
   - Linux
-  - FOSS
 summary: ""
 cover:
 draft: false
