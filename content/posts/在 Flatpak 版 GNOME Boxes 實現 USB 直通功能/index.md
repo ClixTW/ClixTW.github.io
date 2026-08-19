@@ -6,7 +6,7 @@ tags:
   - FOSS
   - GNOME
   - Linux
-cover:
+cover: cover.avif
 summary:
 description:
 draft: false
