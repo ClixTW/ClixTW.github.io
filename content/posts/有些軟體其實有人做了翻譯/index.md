@@ -1,6 +1,6 @@
 ---
 date: 2026-07-20T17:47:53+08:00
-title: 有些軟體其實有人做了翻譯
+title: 其實有些軟體已經有人做了翻譯
 slug: linux-locale-fallback-fix
 tags:
   - Linux
